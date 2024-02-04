@@ -3,6 +3,7 @@ import java.util.Scanner;
 class TresNMaisUm {
     public static void main(String[] args) {
         /*
+         * Classe de complexidade: 
          * Complexidade n**2 devido a existência de um loop dentro de outro no código.
          */
 

@@ -3,9 +3,9 @@ import java.util.Scanner;
 class FrequenciaElemento {
     public static void main(String[] args) {
         /*
+         * Classe de Complexidade:
          * Esse código possui uma complexidade linear, pois no pior caso ele será
-         * executado
-         * n + 1 vezes, sendo n o tamanho do array
+         * executado n + 1 vezes, sendo n o tamanho do array
          */
         Scanner sc = new Scanner(System.in);
 
