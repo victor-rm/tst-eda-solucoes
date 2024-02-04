@@ -1,9 +1,11 @@
 import java.util.Scanner;
 
-// Complexidade quadrática (n**2), pois o algoritmo utiliza 2 loops
 
 class ElementosDuplicados {
     public static void main(String[] args) {
+        
+        // Complexidade quadrática (n**2), pois o algoritmo utiliza 2 loops
+        
         Scanner sc = new Scanner(System.in);
 
         // Entrada responsável por receber os elementos.
