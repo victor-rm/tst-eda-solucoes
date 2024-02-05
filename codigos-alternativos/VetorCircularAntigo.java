@@ -20,18 +20,19 @@ class VetorCircular {
         System.out.println(saida + circular(elementos, fatorcircular).trim());
 
     }
+
     private static String circular(String[] elementos, int fator) {
-        int resto = fator - elementos.length;
-        int limite = fator - elementos.length;
         String vetor = "";
-        for(int i = 0; i < resto && limite != 0; i++) {
-            if (i == elementos.length) {
-                i = 0;
+        for (int i = 0; i < elementos.length && fator - elementos.length >= elementos.length; i++) {
+            if (i == elementos.length - 1) {
+                fator--;
+                if (fator - elementos.length == elementos.length) {
+                    break;
+                }
                 vetor += elementos[i] + " ";
-                limite--;
+                i = -1;
             } else {
                 vetor += elementos[i] + " ";
-                limite--;
             }
         }
         return vetor;

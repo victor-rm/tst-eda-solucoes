@@ -8,6 +8,7 @@ class EncontraPrimeiroNegativo {
          * Tendo em vista que ocorre um loop através da recursividade esse código escala de forma linear (n).
          */
         Scanner sc = new Scanner(System.in);
+        sc.close();
 
         String[] elementos = sc.nextLine().split(" ");
 
