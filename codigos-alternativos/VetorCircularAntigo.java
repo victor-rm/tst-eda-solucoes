@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class VetorCircular {
+class VetorCircularAntigo {
     public static void main(String[] args) {
         /**
          * Classificação da complexidade:
