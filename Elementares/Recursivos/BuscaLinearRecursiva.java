@@ -3,6 +3,10 @@ import java.util.stream.Stream;
 
 class BuscaLinearRecursiva {
     public static void main(String[] args) {
+        /*
+         * Classe de complexidade:
+         * o(n), o tempo cresce em função da entrada.
+         */
         Scanner sc = new Scanner(System.in);
 
         String[] entrada = sc.nextLine().split(" ");
